@@ -10,7 +10,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(220deg, #dddcd1cd 35%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(220deg, #999 35%, rgb(0, 0, 0) 100%);
 }
 
 .wrapper{
@@ -34,7 +34,7 @@ header h1{
 }
 
 header p{
-    color: #474747;
+    color: #999;
     font-size: 16px;
     text-align: center;
     margin-top: 5px;
@@ -73,13 +73,15 @@ header p{
 
 .wrapper .qr-code{
     display: flex;
+    height: 260px;
     opacity: 0;
     pointer-events: none;
     padding: 33px 0;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #987a71;
+    border: 1px solid #999;
+    flex-direction: column;
 }
 
 .qr-code .img{
@@ -98,6 +100,6 @@ header p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #999;
     font-size: 12px;
 }
